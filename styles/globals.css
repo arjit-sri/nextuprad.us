@@ -5441,6 +5441,7 @@ pre {
 }*/
 .tec {
   display: flex;
+  align-items: center;
 }
 
 .tech2 {

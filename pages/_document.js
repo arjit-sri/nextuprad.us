@@ -1,7 +1,10 @@
 import { Html, Head, Main, NextScript } from "next/document";
-import { GoogleTagManagerScript } from "@/components/googleAnalytics";
-import GoogleTagManagerNoscript from "@/components/GoogleNoScript";
-import GoogleTagManager from "@/components/AnalyticsTag";
+import { GoogleTagManagerScript } from "../components/googleAnalytics";
+import GoogleTagManagerNoscript from "../components/GoogleNoScript";
+import GoogleTagManager from "../components/AnalyticsTag";
+// import { GoogleTagManagerScript } from "@/components/googleAnalytics";
+// import GoogleTagManagerNoscript from "@/components/GoogleNoScript";
+// import GoogleTagManager from "@/components/AnalyticsTag";
 
 export default function Document() {
   return (
